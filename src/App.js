@@ -146,9 +146,9 @@ function App() {
               <div className="young-content db-container">
                 <h2 className="block-title">
                 <span className="cblue">G</span>
-                <span className="cyellow">r</span>
+                <span className="cpurple">r</span>
                 <span className="cgreen">o</span>
-                <span className="cpurple">w</span>
+                <span className="cyellow">w</span>
                 <span className="cblue">n</span>
                 &nbsp;
                 <span className="cgreen">A</span>
