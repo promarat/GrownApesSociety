@@ -81,7 +81,7 @@ function App() {
       <div className="container-fluid main-container">
           <div className="section-container section-0">
             <header className="header"> 
-              <img src={Logo} className="logo"/>
+              <img src={Logo} className="logo" width={420} height={140}/>
               <div className="button-wrap">
                 <a className="ml-20" rel="noreferrer" href="https://discord.gg/PyFgjGNtGd" target="_blank">
                   <img alt="Discord" src={discordPng} className="nav-img"/>
@@ -89,17 +89,17 @@ function App() {
                 <a className="ml-20" rel="noreferrer" href="https://twitter.com/doodleapes_nft" target="_blank">
                   <img alt="Twitter" src={twitterPng} className="nav-img"/>
                 </a>
-                <a className="ml-20" rel="noreferrer" href="https://opensea.io/collection/doodled-punks" target="_blank">
-                  <img alt="Twitter" src={openseaPng} className="nav-img"/>
+                <a className="ml-20" rel="noreferrer" href="https://opensea.io/collection/doodle-apes-society-das" target="_blank">
+                  <img alt="Opensea" src={openseaPng} className="nav-img"/>
                 </a>
               </div>
             </header>
             <div className="container-0">
-              <div className="doodle-border">
+              <div className="doodle-border doodle-2">
                 <img alt="doodle-0" src={doodle0} width="100%" height="100%"/>
               </div>
               <div className="doodle-border doodle-1">
-                <img alt="doodle-1" src={doodle1} width="100%" height="100%"/>
+                <img alt="doodle-1" src={doodle1}  width="100%" height="100%" />
               </div>
               <div className="doodle-border doodle-0">
                 <img alt="doodle-2" src={doodle2} width="100%" height="100%"/>
@@ -134,7 +134,7 @@ function App() {
               </div>
               <div className="young-content db-container">
                 <h2 className="block-title">Grown Apes</h2>
-                <p className="block-content">Baby apes grew up to become young adults: they have jobs and responsibilities now. A collection of 5,000 grown apes ready to take over the blockchain</p>
+                <p className="block-content">Baby apes grew up to become young adults: they have jobs and responsibilities now. A collection of 5,000 grown apes ready to take over the blockchain.</p>
               </div>
             </div>
           </div>
@@ -147,13 +147,13 @@ function App() {
             <div className="container-1">
               <div className="pd-container">
                 <h2 className="block-title">Roadmap 1.0</h2>
-                <p className="block-content">Grow a quality community<br/>First merch drop<br/>ETH + D.A.S giveaway<br/>D.A.S Bank<br/>Legendary Doodle Apes</p>
+                <p className="block-content">Grow a quality community<br/>First merch drop<br/>ETH + D.A.S giveaway<br/>D.A.S Bank<br/>Legendary Doodle Apes.</p>
                 <img alt="flag curve" src={divideCurve} className = "divide-curve0"/>
               </div>
               <div className="pd-container">
                 <img alt="flag curve" src={divideCurve} className = "divide-curve1"/>
                 <h2 className="block-title">Roadmap 2.0</h2>
-                <p className="block-content">New Website<br/>Grown Apes<br/>$DAS token launch<br/>Game Center</p>
+                <p className="block-content">New Website<br/>Grown Apes<br/>$DAS token launch<br/>Game Center.</p>
               </div>
             </div>
           </div>
@@ -167,7 +167,7 @@ function App() {
               <img alt="currency" src={currency} className="currency"/>
               <h2 className="block-title">$DAS</h2>
               <h2 className="block-exp">Comming soon...</h2>
-              <p className="block-content">We are working on the official currency of D.A.S This token will be available to D.A.S holders only.<br/>You will be able to use $DAS tokens to unlock rewards and get access to exclusive launches, and much more...<br/>$DAT will be the heart of the D.A.S ecosystem.</p>
+              <p className="block-content">We are working on the official currency of D.A.S. This token will be available to D.A.S family only. Doodle Apes will receive a gift from their grandparents (Airdrop) and Grown Apes will be able to earn their salary while working (Staking). $DAT will be used to unlock rewards, get access to exclusive launches, and much more... it will be the heart of the D.A.S ecosystem.</p>
             </div>
           </div>
 
@@ -180,7 +180,7 @@ function App() {
               <img alt="balloon" src={balloon} className="balloon"/>
               <h2 className="block-title">Game Center</h2>
               <h2 className="block-exp">Comming soon...</h2>
-              <p className="block-content">You will be able to play some classic mini-games, remixed with D.A.S universe!<br/>You will access this Game Center using your D.A.S or $DAT, and play to earn different reward: free Doodle Apes, $DAT, merch...<br/>You can play for fun but stay ready for weekly tournaments!</p>
+              <p className="block-content">You will be able to play some classic mini-games, remixed with D.A.S universe! You will access the Game Center using your D.A.S, but he must be accompanied by an adult! $DAT will be very useful there: you can play to earn different rewards: free Doodle Apes and Grown Apes, $DAT rewards, merch, etc... You can play for fun but be ready for weekly tournaments!</p>
             </div>
           </div>
 

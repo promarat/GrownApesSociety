@@ -50,9 +50,8 @@ body {
     /* backdrop-filter: blur(100px); */
 }
 .logo{
-    padding-right: 40px;
-    padding-left: 40px;
-    width: 600px;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .section-0 {
@@ -107,8 +106,8 @@ body {
     position: relative;
     padding-top:90px;
     padding-bottom: 90px;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
 .container-3 {
@@ -132,7 +131,7 @@ body {
 }
 
 .button-wrap {
-    width: 450px;
+    width: 400px;
     padding-right: 50px;
     padding-left: 50px;
     display: flex;
@@ -142,15 +141,17 @@ body {
 }
 
 .nav-img{
-    height: 65px;
+    height: 50px;
 }
 
 .doodle-border{
     width: 400px;
     height: 400px;
-    border-width: 1px;
-    border-color: #000;
-    border-style:solid;
+}
+
+.doodle-border img {
+    border-radius: 5%;
+    border: 2.5px solid #333;
 }
 
 .doodle-box{
@@ -158,9 +159,11 @@ body {
     height: 280px;
     margin-left: 10px;
     margin-right: 10px;
-    border-width: 1px;
-    border-color: #000;
-    border-style:solid;
+}
+
+.doodle-box img {
+    border-radius: 5%;
+    border: 2.5px solid #333;
 }
 
 .doodle-0 {
@@ -186,26 +189,31 @@ body {
     width: 60%;
 }
 .gif-container{
-    width: 280px;
-    height: 280px;
+    width: 320px;
+    height: 320px;
+}
+
+.gif-container img {
+    border-radius: 5%;
+    border: 2.5px solid #333;
 }
 
 .block-title {
-    font-size: 75px;
+    font-size: 65px;
     letter-spacing: 3px;
     color: #000;
     margin-bottom: 40px;
 }
 
 .block-exp {
-    font-size: 50px;
+    font-size: 45px;
     letter-spacing: 2px;
     margin-bottom: 40px;
     color:#000;
 }
 
 .block-content {
-    font-size: 36px;
+    font-size: 32px;
     letter-spacing: 1px;
     color: #000;
 }
@@ -234,6 +242,7 @@ body {
     position: absolute;
     width: 150px;
     left: 120px;
+    top:35px
 }
 
 .crown {
@@ -266,13 +275,20 @@ body {
         padding-right: 20px;
         padding-left: 20px;
     }
+    .logo{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
     .doodle-border {
         width: 350px;
         height: 350px;
     }
     .gif-container{
-        width: 250px;
-        height: 250px;
+        width: 280px;
+        height: 280px;
+    }
+    .button-wrap {
+        width: 350px;
     }
     .container-3 {
         flex-wrap: wrap;
@@ -306,18 +322,17 @@ body {
 
 @media only screen and (max-width: 992px) {
     .header {
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
+    }
+    .button-wrap {
+        width: 350px;
+        margin-top: 10px;
     }
     .container-1{
         flex-wrap: wrap;
         justify-content: center;
-    }
-    .button-wrap {
-        margin-top: 30px;
-        width: 500px;
-        padding-right: 40px;
-        padding-left: 40px;
     }
     .doodle-border{
         width: 250px;
@@ -355,7 +370,12 @@ body {
         height: 200px;
     }
     .currency {
-        display: none;
+        width: 80px;
+        right: 40px;
+    }
+    .balloon {
+        width: 70px;
+        left: 20px;
     }
     .pd-container{
         margin-left: 30px;
@@ -370,11 +390,8 @@ body {
         height: 300px;
     }
     .container-2 {
-        padding-right: 30px;
-        padding-left: 30px;
-    }
-    .balloon {
-        display: none;
+        padding-right: 50px;
+        padding-left: 50px;
     }
 
     .container-4 {
@@ -405,16 +422,18 @@ body {
 }
 
 @media only screen and (max-width: 576px) {
-    .logo {
-        width: 400px;
-    }
     .container-0{
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
     .doodle-border{
         width: 250px;
         height: 250px;
+    }
+    .balloon {
+        width: 50px;
+        top: 30px;
     }
     .container-2 {
         padding-right: 30px;
@@ -433,20 +452,25 @@ body {
         margin-right: 20px;
     }
     .gif-container{
-        width: 250px;
-        height: 250px;
+        width: 280px;
+        height: 280px;
     }
     .doodle-0{
-        margin: 0px;
+        margin-top: -80px;
+        margin-left: 50px;
+
     }
     .doodle-1{
-        margin: 50px;
+        margin-top: -80px;
+        margin-bottom: 0px;
+        margin-right: 50px;
+        margin-left: 0px;
     }
-    .button-wrap {
-        width: 400px;
+    .doodle-2{
+        margin-left: 50px;
     }
     .nav-img{
-        height: 50px;
+        height: 45px;
     }
     .currency {
         width: 50px;
