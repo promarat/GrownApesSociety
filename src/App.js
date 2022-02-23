@@ -114,7 +114,18 @@ function App() {
           <div className="section-container section-1">
             <div className="container-1">
               <div className="db-container">
-                <h2 className="block-title">Doodle Apes</h2>
+                <h2 className="block-title">
+                <span className="cblue">D</span>
+                <span className="cpurple">o</span>
+                <span className="cpink">o</span>
+                <span className="cpurple">d</span>
+                <span className="cyellow">l</span>
+                <span className="cblue">e</span>
+                &nbsp;
+                <span className="cpink">A</span>
+                <span className="cblue">p</span>
+                <span className="cyellow">e</span>
+                </h2>
                 <p className="block-content">D.A.S is a collection of 2,500 colorful baby apes straight out of the jungle. Inspired by Doodles art and hand-drawn by Obi, these baby apes sold out in 3 mn!</p>
               </div>
               <div className="flag-img gif-container">
@@ -133,7 +144,18 @@ function App() {
                 <img alt="doodle-grown" src={doodleGrown} width="100%"/>
               </div>
               <div className="young-content db-container">
-                <h2 className="block-title">Grown Apes</h2>
+                <h2 className="block-title">
+                <span className="cblue">G</span>
+                <span className="cyellow">r</span>
+                <span className="cpurple">o</span>
+                <span className="cpyellow">w</span>
+                <span className="cblue">n</span>
+                &nbsp;
+                <span className="cgreen">A</span>
+                <span className="cblue">p</span>
+                <span className="cpyellow">e</span>
+                <span className="cgreen">s</span>
+                </h2>
                 <p className="block-content">Baby apes grew up to become young adults: they have jobs and responsibilities now. A collection of 5,000 grown apes ready to take over the blockchain.</p>
               </div>
             </div>
@@ -146,14 +168,39 @@ function App() {
           <div className="section-container section-3">
             <div className="container-1">
               <div className="pd-container">
-                <h2 className="block-title">Roadmap 1.0</h2>
-                <p className="block-content">Grow a quality community<br/>First merch drop<br/>ETH + D.A.S giveaway<br/>D.A.S Bank<br/>Legendary Doodle Apes.</p>
+                <h2 className="block-title">
+                  <span className="cblue">R</span>
+                  <span className="cgreen">O</span>
+                  <span className="cpink">A</span>
+                  <span className="cpurple">D</span>
+                  <span className="cyellow">M</span>
+                  <span className="cpurple">A</span>
+                  <span className="clblue">P</span>
+                  &nbsp;
+                  <span className="cpink">1</span>
+                  <span className="cpurple">.</span>
+                  <span className="cyellow">0</span>
+                </h2>
+                <p className="block-content">Grow a quality community.<br/>First merch drop.<br/>ETH + D.A.S giveaway.<br/>D.A.S Bank.<br/>Legendary Doodle Apes.</p>
                 <img alt="flag curve" src={divideCurve} className = "divide-curve0"/>
               </div>
               <div className="pd-container">
                 <img alt="flag curve" src={divideCurve} className = "divide-curve1"/>
-                <h2 className="block-title">Roadmap 2.0</h2>
-                <p className="block-content">New Website<br/>Grown Apes<br/>$DAS token launch<br/>Game Center.</p>
+                <h2 className="block-title">
+                  <span className="cgreen">R</span>
+                  <span className="cpink">O</span>
+                  <span className="cpurple">A</span>
+                  <span className="cyellow">D</span>
+                  <span className="cpurple">M</span>
+                  <span className="cpink">A</span>
+                  <span className="clblue">P</span>
+                  &nbsp;
+                  <span className="cpink">2</span>
+                  <span className="cpurple">.</span>
+                  <span className="cblue">0</span>
+
+                </h2>
+                <p className="block-content">New Website.<br/>Grown Apes.<br/>$DAS token launch.<br/>Game Center.</p>
               </div>
             </div>
           </div>
@@ -165,7 +212,12 @@ function App() {
           <div className="section-container section-4">
             <div className="container-2">
               <img alt="currency" src={currency} className="currency"/>
-              <h2 className="block-title">$DAS</h2>
+              <h2 className="block-title">
+                <span className="cpink">$</span>
+                <span className="cpurple">D</span>
+                <span className="cgreen">A</span>
+                <span className="clblue">S</span>
+              </h2>
               <h2 className="block-exp">Comming soon...</h2>
               <p className="block-content">We are working on the official currency of D.A.S. This token will be available to D.A.S family only. Doodle Apes will receive a gift from their grandparents (Airdrop) and Grown Apes will be able to earn their salary while working (Staking). $DAT will be used to unlock rewards, get access to exclusive launches, and much more... it will be the heart of the D.A.S ecosystem.</p>
             </div>
@@ -178,7 +230,19 @@ function App() {
           <div className="section-container section-5">
             <div className="container-2">
               <img alt="balloon" src={balloon} className="balloon"/>
-              <h2 className="block-title">Game Center</h2>
+              <h2 className="block-title">
+              <span className="cblue">G</span>
+                <span className="cgreen">a</span>
+                <span className="cpink">m</span>
+                <span className="cpurple">e</span>
+                &nbsp;
+                <span className="cyellow">C</span>
+                <span className="cpurple">e</span>
+                <span className="clblue">n</span>
+                <span className="cpink">t</span>
+                <span className="cpurple">e</span>
+                <span className="cyellow">r</span>
+              </h2>
               <h2 className="block-exp">Comming soon...</h2>
               <p className="block-content">You will be able to play some classic mini-games, remixed with D.A.S universe! You will access the Game Center using your D.A.S, but he must be accompanied by an adult! $DAT will be very useful there: you can play to earn different rewards: free Doodle Apes and Grown Apes, $DAT rewards, merch, etc... You can play for fun but be ready for weekly tournaments!</p>
             </div>
@@ -190,7 +254,12 @@ function App() {
 
           <div className="section-container section-6">
             <div className="container-4">
-              <h2 className="block-title">Team</h2>
+              <h2 className="block-title">
+                <span className="cgreen">T</span>
+                <span className="cblue">e</span>
+                <span className="cpink">a</span>
+                <span className="cpurple">m</span>
+              </h2>
               <div className="container-3">
                 <div className="container-member">
                   <h2 className="block-content">Nano</h2>

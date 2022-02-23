@@ -19,6 +19,35 @@
     src: url('./assets/fonts/IBMPlexMono-Regular.ttf');
 }
 
+.cblue {
+    color: #99e2ff;
+}
+
+.cgreen {
+    color: #b3fec7;
+}
+
+.cpink {
+    color: #fea4d4;
+}
+
+.cpurple {
+    color: #c5c5ff;
+}
+
+.cyellow {
+    color: #ffe780;
+}
+
+.cpyellow {
+    color: #ffe780;
+}
+
+.clblue {
+    color: #bbefff;
+}
+
+
 .App {
     text-align: center;
 }
@@ -203,6 +232,7 @@ body {
     letter-spacing: 3px;
     color: #000;
     margin-bottom: 40px;
+    -webkit-text-stroke: 1.4px #463c3c;
 }
 
 .block-exp {
