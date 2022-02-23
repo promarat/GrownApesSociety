@@ -147,8 +147,8 @@ function App() {
                 <h2 className="block-title">
                 <span className="cblue">G</span>
                 <span className="cyellow">r</span>
-                <span className="cpurple">o</span>
-                <span className="cpyellow">w</span>
+                <span className="cgreen">o</span>
+                <span className="cpurple">w</span>
                 <span className="cblue">n</span>
                 &nbsp;
                 <span className="cgreen">A</span>
